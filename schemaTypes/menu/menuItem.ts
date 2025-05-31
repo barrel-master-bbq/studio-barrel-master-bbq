@@ -18,7 +18,7 @@ export const menuItem = defineType({
     defineField({
       name: 'price',
       title: 'Price',
-      type: 'string', // or 'number' if you're not using $33/lbs style entries
+      type: 'string',
     }),
     defineField({
       name: 'image',
